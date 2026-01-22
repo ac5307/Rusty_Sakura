@@ -1,0 +1,25 @@
+{
+  "name": "rusty-sakura-theme",
+  "displayName": "Rusty Sakura Theme",
+  "description": "A dark VS Code theme blending Rusty structure with Sakura accents.",
+  "version": "0.0.1",
+  "publisher": "Ardyneus",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rusty Sakura",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
